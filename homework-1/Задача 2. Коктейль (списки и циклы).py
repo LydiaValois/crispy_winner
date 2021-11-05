@@ -12,3 +12,4 @@ for i in cocktails:
         i.remove('лосось')
 cocktail_of_the_day = random.choice(cocktails)
 print('Сегодня в вашем коктейле будет: ', ', '.join(cocktail_of_the_day), end='.')
+    
