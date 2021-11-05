@@ -11,3 +11,4 @@ postcards.update(new)
 postcards['Oleg'] = 'Sydney'
 cities = set(postcards.values())
 print('В коллекции Алисы', len(cities), 'уникальных городов:', ', '.join(cities), end='.')
+    
