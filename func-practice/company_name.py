@@ -2,9 +2,8 @@ import random
 
 
 def company_name(x):
-    for i in range(6):
-        c = random.choice(x).split()
-        print(''.join(c).capitalize(), end='')
+    for i in random.sample(x, 6):
+        print(i.capitalize(), end='')
 
 
 names = ["пром","агро","торг","урал","север","юг","техно",
