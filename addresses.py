@@ -69,9 +69,3 @@ Pete.Nordstrom@nordstrom.com'''
 address = re.findall('\d{1,4}\s[A-Z][\.|a-z]+[\s|a-z|A-Z]+\d+\n[A-Z|a-z|\s|\,]+\d+', text)
 print(address)
 print(type(address))
-# address = re.findall('\d{1,4}\s[A-Z][.[a-z]+\s[A-Z][a-z]+\s[A-Z][a-z]+\n[A-Z][a-z]+\s\d+\n\D+\d+', text)
-
-
-# email = re.findall('\S+[@]\S+', text)
-# print(email)
-# print(re.search('[0-9]+', text))
